@@ -7,5 +7,11 @@ output:
 
 This is where I present some of the R-projects that I'm currently working on.
 
+## Self-Studying
+
 * [Time-Series-Analysis](https://shang-chieh0830.github.io/Time-Series-Analysis/)
+
+## Financial Crisis
+
+* [Financial Crisis HW1](content/Financial_Crisis_HW1.pdf)
 
