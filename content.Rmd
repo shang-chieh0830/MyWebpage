@@ -1,12 +1,11 @@
 ---
-title: "Main page"
+title: "Constructing"
 output: 
   html_document:
     df_print: paged
 ---
 
-This is where you link to the other files, which are in a folder in the main directory. Make sure the name of the folder does not have an underscore in it. You also need to go knit those files within the folder first. And, if you update the file, **you nedd to reknit it!**.
+This is where I present some of the R-projects that I'm currently working on.
 
-* [File 1](content/DS_R_1-basic-拷貝.html)
 * [Time-Series-Analysis](https://shang-chieh0830.github.io/Time-Series-Analysis/)
 

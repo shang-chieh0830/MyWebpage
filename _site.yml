@@ -1,8 +1,10 @@
 navbar:
-  title: Title
+  title: About
   left:
-  - text: Main page that links to files
+  - text: Files
     href: content.html
+  - text: Contact
+    href: contact.html
 output:
   html_document:
     theme: flatly

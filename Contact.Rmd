@@ -1,0 +1,8 @@
+---
+title: "Contact Infomation"
+output: 
+  html_document:
+    df_print: paged
+---
+
+Contact me via my email: shangchiehwei@gmail.com
