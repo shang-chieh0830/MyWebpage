@@ -1,6 +1,5 @@
 ---
-title: "Welcome!"
-author: "Jay Wei"
+title: "Welcome"
 output: html_document
 ---
 
