@@ -15,3 +15,9 @@ This is where I present some of the R-projects that I'm currently working on.
 
 * [Financial Crisis HW1](content/Financial_Crisis_HW1.pdf)
 * [Financial Crisis HW2](content/Financial_Crisis_HW2.pdf)
+* [Financial Crisis HW3](content/Financial_Crisis_HW3.pdf)
+
+## Computational Methods for Data Science
+
+* [Computational Methods for Data Science HW1](content/資料科學方法論-HW1.pdf)
+
