@@ -1,6 +1,12 @@
 ---
-title: "Welcome"
+title: "Shang-Chieh's webpage"
 output: html_document
 ---
 
-This is Shang-Chieh Wei's personal webpage.
+Welcome to my webpage. I'm Shang-Chieh, Wei. You can just call me Jay. I'm currently a graduate student in the Department of Economics at National Taiwan University. I'm interested in Statistics and Macroeconomics. 
+
+## Education
+
+* M.A.(Economics) National Taiwan University, 2022-09~Now
+* B.A.(Major: Economics/ Minor: Public Finance) National Chengchi University, 2018-09~2022-06
+
