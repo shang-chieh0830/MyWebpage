@@ -3,6 +3,8 @@ navbar:
   left:
   - text: Files
     href: content.html
+  - text: Links
+    href: links.html
   - text: Contact
     href: contact.html
 output:

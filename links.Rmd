@@ -1,0 +1,29 @@
+---
+title: "Links"
+output: 
+  html_document:
+    df_print: paged
+---
+
+There are many useful resources online. Most of them are free and public!!
+
+I will put some links connected to some of these online resources that I found particularly useful. Check them out to see whether they also meet your needs.
+
+## Math 
+
+* [LibreTexts Analysis](https://math.libretexts.org/Bookshelves/Analysis)
+
+## Statistics 
+
+* [LibreTexts Statistics](https://stats.libretexts.org)
+* [StatLect](https://www.statlect.com/glossary/)
+
+## Statistical Learning
+
+* [ISLR](https://www.statlearning.com)
+
+## Time Series 
+
+* [Time Series Analysis (Aue)](https://stats.libretexts.org/Bookshelves/Advanced_Statistics/Time_Series_Analysis_(Aue))
+* [Time Series: A Data Analysis Approach (S&S)](https://www.stat.pitt.edu/stoffer/tsda/)
+
