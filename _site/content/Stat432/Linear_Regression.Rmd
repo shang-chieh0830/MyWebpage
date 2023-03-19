@@ -5,26 +5,26 @@ date: "2023-03-19"
 output: html_document
 ---
 
-## load packages
+## Load packages
 ```{r}
 library(tidyverse, quietly = TRUE)
 ```
 
-## load data, coerce to tibble
+## Load data, coerce to tibble
 ```{r}
 # Instead of loading the whole package ISLR, we only want the data Credit
 # This is why we use ISLR::Credit
 crdt <- as_tibble(ISLR::Credit)
 ```
 
-## data prep
+## Data prep
 ```{r}
 # The ID col is not needed, we can delete it
 crdt <- crdt %>%
   select(-ID)
 ```
 
-## test-train split data
+## Split data (test-train)
 ```{r}
 set.seed(1)
 # randomly choose 0.8*nrow(crdt) rows from crdt
@@ -34,14 +34,14 @@ trn <- crdt[trn_idx,]
 tst <- crdt[-trn_idx,]
 ```
 
-## estimation-validation split data
+## Split data (estimation-validation) 
 ```{r}
 est_idx <- sample(nrow(trn), size=0.8*nrow(trn))
 est <- trn[est_idx,]
 val <- trn[-est_idx,]
 ```
 
-## look at the data
+## Look at the data
 ```{r}
 str(trn)
 ```
@@ -62,7 +62,7 @@ pairs(trn)
 GGally::ggpairs(trn)
 ```
 
-## fit candidate modesls
+## Fit candidate modesls
 ```{r}
 # intercept-only model
 mod_1 <- lm(Rating~1, data=est) 
@@ -128,17 +128,17 @@ calc_rmse(actual=val$Rating, predict(mod_5, val))
 # validation rmse is used to select a model
 # it seems that mod_4 is the best
 ```
-## fit a final model
+## Fit a final model
 ```{r}
 mod_final <- lm(Rating~., data=trn)
 ```
 
-## calculate test RMSE
+## Calculate test RMSE
 ```{r}
 calc_rmse(actual = tst$Rating, predicted = predict(mod_final, tst))
 ```
 
-## plot actual vs. predicted 
+## Plot actual vs. predicted 
 ```{r}
 plot(x= tst$Rating, y=predict(mod_final, tst),
      pch=20, col="darkgrey",

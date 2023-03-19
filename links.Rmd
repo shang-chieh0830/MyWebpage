@@ -21,6 +21,8 @@ I will put some links connected to some of these online resources that I found p
 ## Statistical Learning
 
 * [ISLR](https://www.statlearning.com)
+  * [R Basics](content/ISLR/Ch2-statlearn-lab.html)
+  * [R Linear Regression](content/ISLR/Ch3-linreg-lab.html)
 * [ISLR (R4DS)](https://r4ds.github.io/bookclub-islr/)
 * [Basics of Statistical Learning](https://statisticallearning.org)
 
