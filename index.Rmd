@@ -10,3 +10,8 @@ Welcome to my webpage. I'm Shang-Chieh, Wei. You can just call me Jay. I'm curre
 * M.A.(Economics) National Taiwan University, 2022-09~Now
 * B.A.(Major: Economics/ Minor: Public Finance) National Chengchi University, 2018-09~2022-06
 
+### Courses Taken
+
+* Math & Stat: Calculus, Advanced Calculus, Differential Equation (ODE), Linear Algebra, Mathematical Statistics, Econometrics.
+
+* Economics: Microeconomics, Macroeconomics, Public Finance, International Finance, Money and Banking,...
