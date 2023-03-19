@@ -11,6 +11,12 @@ This is where I present some of the R-projects that I'm currently working on.
 
 * [Time Series Analysis](https://shang-chieh0830.github.io/Time-Series-Analysis/)
 
+* Basics of Statistical Learning
+
+  Some rough notes that I wrote from the course **Basics of Statistical Learning** taught by David Dalpiaz. For more information (bookdown files and video lectures), please check the **Links** section. 
+  
+  * [Linear Regression](content/Stat432/Linear_Regression.html)
+
 ## Applied Financial Econometrics
 
 * [Applied Financial Econometrics HW1](content/Applied_Financial_Econometrics_HW1.pdf)
