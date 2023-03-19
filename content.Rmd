@@ -25,6 +25,7 @@ This is where I present some of the R-projects that I'm currently working on.
 * [Financial Crisis HW1](content/Financial_Crisis_HW1.pdf)
 * [Financial Crisis HW2](content/Financial_Crisis_HW2.pdf)
 * [Financial Crisis HW3](content/Financial_Crisis_HW3.pdf)
+* [Financial Crisis HW4](content/Financial_Crisis_HW4.pdf)
 
 
 

@@ -21,9 +21,12 @@ I will put some links connected to some of these online resources that I found p
 ## Statistical Learning
 
 * [ISLR](https://www.statlearning.com)
+* [ISLR (R4DS)](https://r4ds.github.io/bookclub-islr/)
+* [Basics of Statistical Learning](https://statisticallearning.org)
 
 ## Time Series 
 
 * [Time Series Analysis (Aue)](https://stats.libretexts.org/Bookshelves/Advanced_Statistics/Time_Series_Analysis_(Aue))
 * [Time Series: A Data Analysis Approach (S&S)](https://www.stat.pitt.edu/stoffer/tsda/)
+* [Forecasting: Principles and Practice](https://otexts.com/fpp2/)
 
