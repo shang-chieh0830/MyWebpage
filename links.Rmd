@@ -30,5 +30,6 @@ I will put some links connected to some of these online resources that I found p
 
 * [Time Series Analysis (Aue)](https://stats.libretexts.org/Bookshelves/Advanced_Statistics/Time_Series_Analysis_(Aue))
 * [Time Series: A Data Analysis Approach (S&S)](https://www.stat.pitt.edu/stoffer/tsda/)
-* [Forecasting: Principles and Practice](https://otexts.com/fpp2/)
+* [Forecasting: Principles and Practice](https://otexts.com/fpp3/)
+* [ATSA](https://atsa-es.github.io/atsa/index.html)
 

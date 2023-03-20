@@ -16,6 +16,7 @@ This is where I present some of the R-projects that I'm currently working on.
   Some rough notes that I wrote from the course **Basics of Statistical Learning** taught by David Dalpiaz. For more information (bookdown files and video lectures), please check the **Links** section. 
   
   * [Linear Regression](content/Stat432/Linear_Regression.html)
+  * [Non-parametric Regression](content/Stat432/NonParametric_Regression.html)
 
 ## Applied Financial Econometrics
 

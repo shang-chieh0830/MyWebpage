@@ -1,0 +1,247 @@
+---
+title: "Non-Parametric Regression"
+author: "Jay Wei"
+date: "2023-03-20"
+output: html_document
+---
+## Load packages
+```{r}
+library(tidyverse)
+library(rpart)
+library(rpart.plot)
+library(caret)
+```
+
+## Load data, coerce to tibble
+```{r}
+crdt <- as_tibble(ISLR::Credit)
+```
+
+
+## Data prep
+```{r}
+crdt <- crdt %>% 
+  select(-ID) %>% 
+  select(-Rating, everything())
+
+# Move the Rating col to the last col
+```
+
+
+## Split (test-train)
+```{r}
+set.seed(1)
+crdt_trn_idx <- sample(nrow(crdt), size=0.8*nrow(crdt))
+crdt_trn <- crdt[crdt_trn_idx,]
+crdt_tst <- crdt[-crdt_trn_idx,]
+```
+
+## Split (estimation-validation)
+```{r}
+crdt_est_idx <- sample(nrow(crdt_trn), size=0.8*nrow(crdt_trn))
+crdt_est <- crdt_trn[crdt_est_idx,]
+crdt_val <- crdt_trn[-crdt_est_idx,]
+```
+
+## Check data
+```{r}
+head(crdt_trn, n=10)
+```
+
+## KNN
+
+
+```{r}
+knnmod= knnreg(Rating ~ Age + Gender +Student , data=crdt_est, k=15)
+```
+
+```{r}
+knnmod$k
+```
+
+```{r}
+# without specifying the number of k
+knnmod= knnreg(Rating ~ Age + Gender +Student , data=crdt_est)
+```
+
+```{r}
+knnmod$k
+```
+
+```{r}
+# This will go wrong
+# predict(knnmod, data.frame(Age=34, Gender=" Male", Student="No"))
+```
+
+```{r}
+predict(knnmod, data.frame(Age=34, 
+                        Gender=factor("Male", levels=c("Female", "Male")),
+                        Student=factor("No", levels = c("No", "Yes"))))
+```
+
+```{r}
+predict(knnmod, data.frame(Age=34, 
+                        Gender=factor("Female", levels=c("Female", "Male")),
+                        Student=factor("Yes", levels = c("No", "Yes"))))
+```
+
+
+```{r}
+predict(knnmod, data.frame(Age=34, 
+                        Gender=c("Female", " Male"),
+                        Student=c("No", "Yes")))
+```
+
+
+```{r}
+knnmod$learn$X
+```
+
+## Trees
+
+```{r}
+levels(ISLR::Credit$Gender)
+```
+
+
+```{r}
+treesmod= rpart(Rating~Age+Gender+Student, data=crdt_est)
+```
+
+```{r}
+rpart.plot(treesmod)
+```
+
+```{r}
+predict(treesmod, data.frame(Age=34, 
+                        Gender=factor(" Male", levels=c("Female", "Male")),
+                        Student=factor("No", levels = c("No", "Yes"))))
+```
+
+```{r}
+# Sometimes you don;t need to specify factor vairables...
+predict(treesmod, data.frame(Age=34, Gender=" Male", Student="No"))
+                       
+```
+
+
+
+```{r}
+treesmod= rpart(Rating~Age+Gender+Student, data=crdt_est, cp=0.01)
+rpart.plot(treesmod)
+```
+
+```{r}
+treesmod= rpart(Rating~Age+Gender+Student, data=crdt_est, minsplit=10, cp=0.01)
+rpart.plot(treesmod)
+```
+
+## Another example
+
+```{r}
+# define regression fcn
+cubic_mean <- function(x){
+  1-2*x-3*x^2+5*x^3
+}
+```
+
+```{r}
+# define full data generating process
+gen_slr_data <- function(sample_size=100, mu){
+  x=runif(n=sample_size, min=-1, max= 1)
+  y=mu(x) +rnorm(n=sample_size)
+  tibble(x,y)
+}
+```
+
+```{r}
+# simulate entire dataset
+set.seed(3)
+sim_slr_data=gen_slr_data(sample_size = 100, mu=cubic_mean)
+```
+
+```{r}
+# test-train split
+slr_trn_idx= sample(nrow(sim_slr_data), size=0.8*nrow(sim_slr_data))
+slr_trn = sim_slr_data[slr_trn_idx,]
+slr_tst = sim_slr_data[-slr_trn_idx,]
+```
+
+
+```{r}
+# test-train split
+slr_est_idx= sample(nrow(slr_trn), size=0.8*nrow(slr_trn))
+slr_est = slr_trn[slr_est_idx,]
+slr_val = slr_trn[-slr_est_idx,]
+```
+
+```{r}
+# check data
+head(slr_trn, n=10)
+```
+
+```{r}
+knnreg(y~x, data= slr_est, k=2)
+```
+
+```{r}
+train_knn=function(neighbors){
+  knnreg(y~x, data= slr_est, k=neighbors)
+}
+```
+
+
+```{r}
+k_to_try= seq(1, 51, by=2)
+knn_list= lapply(k_to_try, train_knn)
+```
+
+```{r}
+calc_rmse <- function(actual, predicted){
+  sqrt(mean(actual-predicted)^2)
+}
+```
+
+```{r}
+knn_val_pred = lapply(knn_list, predict, slr_val)
+knn_trn_pred = lapply(knn_list, predict, slr_trn)
+```
+
+
+```{r}
+knn_rmse_val = lapply(knn_val_pred, calc_rmse, actual= slr_val$y)
+knn_rmse_trn = lapply(knn_trn_pred, calc_rmse, actual= slr_trn$y)
+```
+
+```{r}
+which.min(knn_rmse_val)
+```
+
+```{r}
+k_to_try[which.min(knn_rmse_val)]
+```
+
+
+```{r}
+plot(k_to_try, knn_rmse_val, type="b", col=1, pch=20,
+     ylim=range(knn_rmse_val, knn_rmse_trn),
+     xlab= "k (number of neighbors)", ylab="RMSE",
+     main="Validation and Training RMSE vs. k")
+lines(k_to_try, knn_rmse_trn, col=2, type="b", pch=20)
+grid()
+legend("bottomright", c("Train RMSE", "Validation RMSE"), col=c(2,1), lty=1, pch=20)
+```
+
+As k increases, Train RMSE increases.
+The Validation RMSE appears to be a U-shape line.
+A small k value is a flexible model.
+
+
+```{r}
+mod_final= knnreg(y~x, slr_trn, k=11)
+calc_rmse(
+  actual=slr_tst$y,
+  predicted = predict(mod_final,slr_tst)
+)
+```
+
