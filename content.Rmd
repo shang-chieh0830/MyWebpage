@@ -17,6 +17,7 @@ This is where I present some of the R-projects that I'm currently working on.
   
   * [Linear Regression](content/Stat432/Linear_Regression.html)
   * [Non-parametric Regression](content/Stat432/NonParametric_Regression.html)
+  * [Classification](content/Stat432/Classification.html)
 
 ## Applied Financial Econometrics
 

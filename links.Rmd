@@ -18,7 +18,7 @@ I will put some links connected to some of these online resources that I found p
 * [LibreTexts Statistics](https://stats.libretexts.org)
 * [StatLect](https://www.statlect.com/glossary/)
 
-## Statistical Learning
+## Statistical/Machine Learning
 
 * [ISLR](https://www.statlearning.com)
   * [R Basics](content/ISLR/Ch2-statlearn-lab.html)
@@ -26,10 +26,19 @@ I will put some links connected to some of these online resources that I found p
 * [ISLR (R4DS)](https://r4ds.github.io/bookclub-islr/)
 * [Basics of Statistical Learning](https://statisticallearning.org)
 
+* [Machine Learning I](https://bookdown.org/hailiangdu80/Machine_Learning_and_Neural_Networks/)
+* [Machine Learning II](https://bookdown.org/hailiangdu/Lecture_notes/)
+* [Machine Learning](https://bookdown.org/ssjackson300/Machine-Learning-Lecture-Notes/)
+* [STA 430](http://campus.murraystate.edu/academic/faculty/cmecklin/STA430/_book/)
+* [Hands on Machine Learning](https://bradleyboehmke.github.io/HOML/)
+* [Applied Machine Learning](https://dionysus.psych.wisc.edu/iaml/)
+
 ## Time Series 
 
 * [Time Series Analysis (Aue)](https://stats.libretexts.org/Bookshelves/Advanced_Statistics/Time_Series_Analysis_(Aue))
 * [Time Series: A Data Analysis Approach (S&S)](https://www.stat.pitt.edu/stoffer/tsda/)
 * [Forecasting: Principles and Practice](https://otexts.com/fpp3/)
 * [ATSA](https://atsa-es.github.io/atsa/index.html)
+
+
 

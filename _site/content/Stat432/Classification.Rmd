@@ -1,0 +1,207 @@
+---
+title: "Classification"
+author: "Jay Wei"
+date: "2023-03-21"
+output: html_document
+---
+
+## Load packages
+
+
+```{r}
+library(tibble)
+library(ggplot2)
+library(rpart)
+library(rpart.plot)
+library(caret)
+library(palmerpenguins)
+library(mlbench)
+```
+
+```{r}
+# set seed
+set.seed(42)
+```
+
+## Generate data
+```{r}
+sim_data <- as_tibble(mlbench.2dnormals(n=1000, cl=3, sd=1.3))
+```
+
+## Split data (tst-trn)
+```{r}
+trn_idx <- sample(nrow(sim_data), size=0.8*nrow(sim_data))
+trn=sim_data[trn_idx,]
+tst=sim_data[-trn_idx,]
+
+```
+
+## Split data (est-val)
+```{r}
+est_idx <- sample(nrow(trn), size=0.8*nrow(trn))
+est=trn[est_idx,]
+val=trn[-est_idx,]
+```
+
+## Check data
+```{r}
+trn
+```
+
+## Visualize data
+```{r}
+p1 = ggplot(data = trn, aes(x = x.1)) +
+  geom_density(aes(fill = classes), alpha = 0.5) +
+  scale_fill_manual(values=c("grey", 2, 3))
+
+p2 = ggplot(data = trn, aes(x = x.2)) +
+  geom_density(aes(fill = classes), alpha = 0.5) +
+  scale_fill_manual(values=c("grey", 2, 3))
+
+p3 = ggplot(data = trn, aes(x = x.1)) +
+  geom_histogram(aes(fill = classes), alpha = 0.7, position = "identity") +
+  scale_fill_manual(values=c("grey", 2, 3))
+
+p4 = ggplot(data = trn, aes(x = x.2)) +
+  geom_histogram(aes(fill = classes), alpha = 0.7, position = "identity") +
+  scale_fill_manual(values=c("grey", 2, 3)) # choose color to fill
+
+gridExtra::grid.arrange(p1, p2, p3, p4)
+```
+
+```{r}
+plot(x.2 ~ x.1, data = trn, col = classes, pch = 20, cex = 1.5)
+# cex determines the size of points
+grid()
+```
+
+## Fit knn model
+```{r}
+mod_knn= knn3(classes~., data=trn, k=10)
+mod_knn
+```
+## Make predictions with knn model
+```{r}
+new_obs= data.frame(x.1=0, x.2=0)
+predict(mod_knn, new_obs)
+predict(mod_knn, new_obs, type="prob")
+predict(mod_knn, new_obs, type="class")
+```
+## Fit tree model
+```{r}
+mod_tree= rpart(classes~., data=trn, minsplit=5)
+```
+
+## Make predictions with knn model
+```{r}
+new_obs=data.frame(x.1=2, x.2=-2)
+predict(mod_tree, new_obs, type="prob")
+predict(mod_tree, new_obs, type="class")
+```
+
+```{r}
+# visualize tree results
+par(mfrow = c(1, 2))
+plot(x.2 ~ x.1, data = trn, col = classes, pch = 20, cex = 1.5)
+grid()
+rpart.plot(mod_tree, type = 2, box.palette = list("Grays", "Reds", "Greens"))
+```
+
+## Reset plotting
+```{r}
+# dev.off()
+```
+
+## Function to calculate misclassification
+```{r}
+calc_misclass=function(actual, predicted){
+  mean(actual != predicted)
+}
+```
+
+## Calculate test metric
+```{r}
+mod_knn=knn3(classes~. ,data=trn, k=10)
+
+calc_misclass(actual=tst$classes, predicted= predict(mod_knn, tst, type="class"))
+```
+
+```{r}
+tst$classes # true value
+predict(mod_knn, tst, type="class") #predicted value
+mean(tst$classes!=predict(mod_knn, tst, type="class"))
+```
+
+## Tune knn model
+
+## k values to consider
+```{r}
+k_val <- seq(1,101, by=2)
+```
+
+## Function to fit knn to est for various k
+```{r}
+fit_knn_to_est=function(k){
+  knn3(classes~., data=est, k=k)
+}
+```
+
+## Fit models
+```{r}
+knn_mods= lapply(k_val, fit_knn_to_est)
+```
+
+## Make predictions
+```{r}
+knn_preds=lapply(knn_mods, predict, val, type="class") # you can change the type to "prob"
+```
+
+## Calculate misclass
+```{r}
+knn_misclass <- sapply(knn_preds, calc_misclass, actual=val$classes)
+```
+
+## Plot results
+```{r}
+plot(k_val, knn_misclass, pch=20, type="b")
+grid()
+```
+
+```{r}
+k_val[which.min(knn_misclass)]
+```
+
+## Trees and penguins
+
+## Check data
+```{r}
+penguins
+```
+
+## Visualize data
+```{r}
+# visualize data
+par(mfrow = c(1, 2))
+plot(body_mass_g ~ flipper_length_mm, data = penguins,
+     col = species, pch = 20, cex = 1.5)
+grid()
+plot(bill_length_mm ~ flipper_length_mm, data = penguins,
+     col = species, pch = 20, cex = 1.5)
+grid()
+```
+## Reset plotting
+```{r}
+# dev.off()
+```
+## Fit tree and visualize
+```{r}
+peng_mod <- rpart(species~. -year, data=penguins)
+rpart.plot(peng_mod, type=2, box.palette=list("Grays", "Red", "Greens"))
+```
+
+## Fit bigger tree and visualize
+```{r}
+peng_mod_big=rpart(species~. -year, data=penguins, minsplit=2, cp=0)
+rpart.plot(peng_mod_big, type=2, box.palette = list("Grays", "Reds", "Greens"))
+```
+
