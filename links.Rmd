@@ -9,6 +9,16 @@ There are many useful resources online. Most of them are free and public!!
 
 I will put some links connected to some of these online resources that I found particularly useful. Check them out to see whether they also meet your needs.
 
+## Finance
+
+* [Technical Analysis with R](https://bookdown.org/kochiuyu/technical-analysis-with-r-second-edition2/)
+
+* [Computational Finance](https://bookdown.org/compfinezbook/introcompfinr/)
+
+* [Financial Analytics](https://bookdown.org/wfoote01/faur/)
+
+* [Tidy Finance with R](https://www.tidy-finance.org)
+
 ## Math 
 
 * [LibreTexts Analysis](https://math.libretexts.org/Bookshelves/Analysis)
