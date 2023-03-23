@@ -36,9 +36,9 @@ I will put some links connected to some of these online resources that I found p
 * [ISLR (R4DS)](https://r4ds.github.io/bookclub-islr/)
 * [Basics of Statistical Learning](https://statisticallearning.org)
 
-* [Machine Learning I](https://bookdown.org/hailiangdu80/Machine_Learning_and_Neural_Networks/)
+* [Machine Learning  ](https://bookdown.org/hailiangdu80/Machine_Learning_and_Neural_Networks/)
+* [Machine Learning I](https://bookdown.org/ssjackson300/Machine-Learning-Lecture-Notes/)
 * [Machine Learning II](https://bookdown.org/hailiangdu/Lecture_notes/)
-* [Machine Learning](https://bookdown.org/ssjackson300/Machine-Learning-Lecture-Notes/)
 * [STA 430](http://campus.murraystate.edu/academic/faculty/cmecklin/STA430/_book/)
 * [Hands on Machine Learning](https://bradleyboehmke.github.io/HOML/)
 * [Applied Machine Learning](https://dionysus.psych.wisc.edu/iaml/)
