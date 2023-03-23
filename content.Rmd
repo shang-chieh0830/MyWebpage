@@ -36,5 +36,8 @@ The software I used was STATA. I will probably use R next time. HA!
 
 ## Machine Learning
 
+### MATH3431
 
+* [Practical Sheets 1](content/MATH3431_Practical_Sheets1.pdf)
+* [Practical Sheets 2](content/MATH3431_Practical_Sheets2.pdf)
 
