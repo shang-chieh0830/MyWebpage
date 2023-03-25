@@ -10,6 +10,7 @@ This is where I present some of the R-projects that I'm currently working on.
 ## Self-Studying
 
 * [Time Series Analysis](https://shang-chieh0830.github.io/Time-Series-Analysis/)
+* [Regression Analysis](https://shang-chieh0830.github.io/Regression_Analysis/)
 
 ## Applied Financial Econometrics
 
@@ -35,6 +36,10 @@ The software I used was STATA. I will probably use R next time. HA!
 * [Labor Economics Project](content/107205036.pdf)
 
 ## Machine Learning
+
+There are so many great R bookdown files available online.
+I only list a few in the **Links** section.
+I'd like to first go with the files containing clear theoretical explanations, programming exercises and comprehensive topics. If video lectures are available, that is definitely a plus!!
 
 ### MATH3431
 
