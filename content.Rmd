@@ -10,6 +10,7 @@ This is where I present some of the R-projects that I'm currently working on.
 ## Self-Studying
 
 * [Time Series Analysis](https://shang-chieh0830.github.io/Time-Series-Analysis/)
+* [Statistical Computing](https://shang-chieh0830.github.io/Statistical_Computing/)
 * [Regression Analysis](https://shang-chieh0830.github.io/Regression_Analysis/)
 
 ## Applied Financial Econometrics
