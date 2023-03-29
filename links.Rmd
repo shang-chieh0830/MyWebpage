@@ -45,6 +45,7 @@ I will put some links connected to some of these online resources that I found p
 
 * [Time Series: A Data Analysis Approach (S&S)](https://www.stat.pitt.edu/stoffer/tsda/)
 * [Forecasting: Principles and Practice](https://otexts.com/fpp3/)
+* [Forecasting and Analytics with ADAM](https://openforecast.org/adam/)
 * [ATSA](https://atsa-es.github.io/atsa/index.html)
 
 
