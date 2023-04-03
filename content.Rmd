@@ -29,6 +29,7 @@ This is where I present some of the R-projects that I'm currently working on.
 * [Financial Crisis HW3](content/Financial_Crisis_HW3.pdf)
 * [Financial Crisis HW4](content/Financial_Crisis_HW4.pdf)
 * [Financial Crisis HW5](content/Financial_Crisis_HW5.pdf)
+* [Financial Crisis HW6](content/Financial_Crisis_HW6.pdf)
 
 ## Labor Economics
 
