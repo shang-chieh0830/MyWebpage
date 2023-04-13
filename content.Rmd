@@ -7,20 +7,17 @@ output:
 
 This is where I present some of the R-projects that I'm currently working on.
 
-## Self-Studying
-
-* [Time Series Analysis](https://shang-chieh0830.github.io/Time-Series-Analysis/)
-* [Statistical Computing](https://shang-chieh0830.github.io/Statistical_Computing/)
-* [Regression Analysis](https://shang-chieh0830.github.io/Regression_Analysis/)
 
 ## Applied Financial Econometrics
 
 * [Applied Financial Econometrics HW1](content/Applied_Financial_Econometrics_HW1.pdf)
 
 
-## Data Science Methodology
+## Bayesian Statistics
 
-* [Data Science Methodology HW1](content/資料科學方法論-HW1.pdf)
+Bayesian Statistics course taught by Jingchen (Monika) Hu. I added some comments in the slides.
+
+* [Lecture 1 Introduction annotated](content/F19MATH347_Intro_annotated.pdf)
 
 ## Financial Crisis
 
@@ -49,3 +46,14 @@ I'd like to first go with the files containing clear theoretical explanations, p
 * [Practical Sheets 1](content/MATH3431_Practical_Sheets1.pdf)
 * [Practical Sheets 2](content/MATH3431_Practical_Sheets2.pdf)
 
+## Regression Analysis
+
+* [Regression Analysis](https://shang-chieh0830.github.io/Regression_Analysis/)
+
+## Statistical Computing
+
+* [Statistical Computing](https://shang-chieh0830.github.io/Statistical_Computing/)
+
+## Time Series Analysis
+
+* [Time Series Analysis](https://shang-chieh0830.github.io/Time-Series-Analysis/)
