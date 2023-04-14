@@ -18,6 +18,7 @@ This is where I present some of the R-projects that I'm currently working on.
 Bayesian Statistics course taught by Jingchen (Monika) Hu. I added some comments in the slides.
 
 * [Lecture 1 Introduction annotated](content/F19MATH347_Intro_annotated.pdf)
+* [HW1](content/Bayesian_Statistics_HW1.pdf)
 
 ## Financial Crisis
 
@@ -27,6 +28,7 @@ Bayesian Statistics course taught by Jingchen (Monika) Hu. I added some comments
 * [Financial Crisis HW4](content/Financial_Crisis_HW4.pdf)
 * [Financial Crisis HW5](content/Financial_Crisis_HW5.pdf)
 * [Financial Crisis HW6](content/Financial_Crisis_HW6.pdf)
+* [Financial Crisis HW7](content/Financial_Crisis_HW7.pdf)
 
 ## Labor Economics
 
@@ -35,16 +37,6 @@ The software I used was STATA. I will probably use R next time. HA!
 
 * [Labor Economics Project](content/107205036.pdf)
 
-## Machine Learning
-
-There are so many great R bookdown files available online.
-I only list a few in the **Links** section.
-I'd like to first go with the files containing clear theoretical explanations, programming exercises and comprehensive topics. If video lectures are available, that is definitely a plus!!
-
-### MATH3431
-
-* [Practical Sheets 1](content/MATH3431_Practical_Sheets1.pdf)
-* [Practical Sheets 2](content/MATH3431_Practical_Sheets2.pdf)
 
 ## Regression Analysis
 
