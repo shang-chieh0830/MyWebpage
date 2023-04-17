@@ -23,6 +23,8 @@ I added some comments in the slides.
 * [All nighters example](content/Bayesian_Statistics/All_nighters_example.pdf)
 * [HW1](content/Bayesian_Statistics/Bayesian_Statistics_HW1.pdf)
 * [Lecture 2 Proportion annotated](content/Bayesian_Statistics/F19MATH347_Proportion_annotated.pdf)
+* [Tokyo Express dining preference example](content/Bayesian_Statistics/F19MATH347_Proportion_R.pdf)
+* [HW2](content/Bayesian_Statistics/HW2.pdf)
 
 ## Financial Crisis
 
