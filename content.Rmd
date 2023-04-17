@@ -25,6 +25,7 @@ I added some comments in the slides.
 * [Lecture 2 Proportion annotated](content/Bayesian_Statistics/F19MATH347_Proportion_annotated.pdf)
 * [Tokyo Express dining preference example](content/Bayesian_Statistics/F19MATH347_Proportion_R.pdf)
 * [HW2](content/Bayesian_Statistics/HW2.pdf)
+* [Lab1](content/Bayesian_Statistics/Lab1_Jay.pdf)
 
 ## Financial Crisis
 
