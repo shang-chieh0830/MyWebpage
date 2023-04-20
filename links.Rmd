@@ -31,7 +31,6 @@ I will put some links connected to some of these online resources that I found p
 ## Statistical/Machine Learning
 
 * [ISLR](https://www.statlearning.com)
-* [ISLR (R4DS)](https://r4ds.github.io/bookclub-islr/)
 * [Basics of Statistical Learning](https://statisticallearning.org)
 
 * [Machine Learning(MATH3431)](https://bookdown.org/hailiangdu80/Machine_Learning_and_Neural_Networks/)
