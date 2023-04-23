@@ -52,14 +52,8 @@ The software I used was STATA. I will probably use R next time. HA!
 * [Labor Economics Project](content/107205036.pdf)
 
 
-## Regression Analysis
-
-* [Regression Analysis](https://shang-chieh0830.github.io/Regression_Analysis/)
-
 ## Statistical Computing
 
 * [Statistical Computing](https://shang-chieh0830.github.io/Statistical_Computing/)
 
-## Time Series Analysis
 
-* [Time Series Analysis](https://shang-chieh0830.github.io/Time-Series-Analysis/)
