@@ -17,21 +17,13 @@ This is where I present some of the R-projects that I'm currently working on.
 
 Bayesian Statistics course taught by Jingchen (Monika) Hu. The lecture is highly recommended!! 
 
-I added some comments in the slides.
 
-* [Lec 1 Introduction annotated](content/Bayesian_Statistics/F19MATH347_Intro_annotated.pdf)
-* [All nighters example](content/Bayesian_Statistics/All_nighters_example.pdf)
-* [HW1](content/Bayesian_Statistics/Bayesian_Statistics_HW1.pdf)
-* [Lec 2 Proportion annotated](content/Bayesian_Statistics/F19MATH347_Proportion_annotated.pdf)
-* [Tokyo Express dining preference example](content/Bayesian_Statistics/F19MATH347_Proportion_R.pdf)
-* [HW2](content/Bayesian_Statistics/HW2.pdf)
-* [Lab1](content/Bayesian_Statistics/Lab1_Jay.pdf)
-* [Lec 3 Mean annotated](content/Bayesian_Statistics/F19MATH347_Mean_annotated.pdf)
-* [Lec 3 derivation notes](content/Bayesian_Statistics/F19MATH347_Mean_notes.pdf)
-* [Lec 3 derivation exercises](content/Bayesian_Statistics/F19MATH347 Gamma Poisson Conjugate.pdf)
-* [Solutions to Lec 3 derivation exercises](content/Bayesian_Statistics/Solutions_to_Gamma_Poisson.pdf)
-* [Lec 3 MonteCarlo annotated](content/Bayesian_Statistics/F19MATH347_MonteCarlo_annotated.pdf)
-* [Lec 3 R example](content/Bayesian_Statistics/F19MATH347_Mean_R.pdf)
+* [Bayesian Statistics HW1](content/Bayesian_Statistics/Bayesian_Statistics_HW1.pdf)
+* [Bayesian Statistics HW2](content/Bayesian_Statistics/HW2.pdf)
+* [Bayesian Statistics Lab1](content/Bayesian_Statistics/Lab1_Jay.pdf)
+* [Bayesian Statistics Lab2](content/Bayesian_Statistics/Lab2_Jay.pdf)
+* [Bayesian Statistics HW3](content/Bayesian_Statistics/HW3.pdf)
+
 
 ## Financial Crisis
 
