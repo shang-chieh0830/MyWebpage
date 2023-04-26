@@ -48,4 +48,10 @@ The software I used was STATA. I will probably use R next time. HA!
 
 * [Statistical Computing](https://shang-chieh0830.github.io/Statistical_Computing/)
 
+## Time Series Analysis and it's applications with examples in R
+
+Below is some of the computer exercises form Shumway and Stoffer's book. Only chapter 1, chapter 2, chapter 3, and chapter 5 will be covered (roughly).
+
+* [S&S chapter 1](content/Time_Series_Analysis/HW1.pdf)
+* [S&S chapter 2](content/Time_Series_Analysis/HW2.pdf)
 

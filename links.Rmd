@@ -9,6 +9,12 @@ There are many useful resources online. Most of them are free and public!!
 
 I will put some links connected to some of these online resources that I found particularly useful. Check them out to see whether they also meet your needs.
 
+
+## Bayesian Statistics
+
+* [Probability and Bayesian Modeling](https://monika76five.github.io/ProbBayes/)
+* [Bayesian Data Analysis course](https://avehtari.github.io/BDA_course_Aalto/gsu2023.html)
+
 ## Finance
 
 * [Technical Analysis with R](https://bookdown.org/kochiuyu/technical-analysis-with-r-second-edition2/)
@@ -42,6 +48,7 @@ I will put some links connected to some of these online resources that I found p
 
 ## Time Series 
 
+* [Time Series Analysis and it's applications with examples in R](https://www.stat.pitt.edu/stoffer/tsa4/)
 * [Time Series: A Data Analysis Approach (S&S)](https://www.stat.pitt.edu/stoffer/tsda/)
 * [Forecasting: Principles and Practice](https://otexts.com/fpp3/)
 * [Forecasting and Analytics with ADAM](https://openforecast.org/adam/)
