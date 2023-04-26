@@ -12,17 +12,17 @@ I will put some links connected to some of these online resources that I found p
 
 ## Bayesian Statistics
 
-* [Probability and Bayesian Modeling](https://monika76five.github.io/ProbBayes/)
+* [An Introduction to Bayesian Thinking](https://statswithr.github.io/book/)
+* [Bayes Rules! An Introduction to Applied Bayesian Modeling](https://www.bayesrulesbook.com)
 * [Bayesian Data Analysis course](https://avehtari.github.io/BDA_course_Aalto/gsu2023.html)
+* [Probability and Bayesian Modeling](https://monika76five.github.io/ProbBayes/)
+
 
 ## Finance
 
 * [Technical Analysis with R](https://bookdown.org/kochiuyu/technical-analysis-with-r-second-edition2/)
-
 * [Computational Finance](https://bookdown.org/compfinezbook/introcompfinr/)
-
 * [Financial Analytics](https://bookdown.org/wfoote01/faur/)
-
 * [Tidy Finance with R](https://www.tidy-finance.org)
 
 ## Math 
@@ -33,6 +33,7 @@ I will put some links connected to some of these online resources that I found p
 
 * [LibreTexts Statistics](https://stats.libretexts.org)
 * [StatLect](https://www.statlect.com/glossary/)
+* [Statistics Online](https://online.stat.psu.edu/statprogram/)
 
 ## Statistical/Machine Learning
 
@@ -48,11 +49,15 @@ I will put some links connected to some of these online resources that I found p
 
 ## Time Series 
 
-* [Time Series Analysis and it's applications with examples in R](https://www.stat.pitt.edu/stoffer/tsa4/)
-* [Time Series: A Data Analysis Approach (S&S)](https://www.stat.pitt.edu/stoffer/tsda/)
-* [Forecasting: Principles and Practice](https://otexts.com/fpp3/)
-* [Forecasting and Analytics with ADAM](https://openforecast.org/adam/)
 * [ATSA](https://atsa-es.github.io/atsa/index.html)
+* [Forecasting and Analytics with ADAM](https://openforecast.org/adam/)
+* [Forecasting: Principles and Practice](https://otexts.com/fpp3/)
+* [Time Series: A Data Analysis Approach (S&S)](https://www.stat.pitt.edu/stoffer/tsda/)
+* [Time Series Analysis and it's applications with examples in R](https://www.stat.pitt.edu/stoffer/tsa4/)
+
+
+
+
 
 
 
