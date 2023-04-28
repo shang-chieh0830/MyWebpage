@@ -34,6 +34,7 @@ Bayesian Statistics course taught by Jingchen (Monika) Hu. The lecture is highly
 * [Financial Crisis HW5](content/Financial_Crisis/Financial_Crisis_HW5.pdf)
 * [Financial Crisis HW6](content/Financial_Crisis/Financial_Crisis_HW6.pdf)
 * [Financial Crisis HW7](content/Financial_Crisis/Financial_Crisis_HW7.pdf)
+* [Financial Crisis HW8](content/Financial_Crisis/Financial_Crisis_HW8.pdf)
 
 ## Labor Economics
 
