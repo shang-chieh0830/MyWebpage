@@ -53,7 +53,9 @@ The software I used was STATA. I will probably use R next time. HA!
 
 Below is some of the computer exercises form Shumway and Stoffer's book.
 
+* [Time Series Analysis](https://shang-chieh0830.github.io/Time_Series_Analysis/)
 * [S&S Appendix](content/Time_Series_Analysis/Appendix.pdf)
 * [S&S chapter 1](content/Time_Series_Analysis/HW1.pdf)
 * [S&S chapter 2](content/Time_Series_Analysis/HW2.pdf)
+* [S&S chapter 3](content/Time_Series_Analysis/HW3.pdf)
 
