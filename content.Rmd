@@ -58,4 +58,5 @@ Below is some of the computer exercises form Shumway and Stoffer's book.
 * [S&S chapter 1](content/STAT878/HW1.pdf)
 * [S&S chapter 2](content/STAT878/HW2.pdf)
 * [S&S chapter 3](content/STAT878/HW3.pdf)
+* [S&S chapter 5](content/STAT878/HW5.pdf)
 
