@@ -10,13 +10,12 @@ This is where I present some of the R-projects that I'm currently working on.
 
 ## Applied Financial Econometrics
 
-* [Applied Financial Econometrics HW1](content/Applied_Financial_Econometrics_HW1.pdf)
+* [Applied Financial Econometrics Proposal](content/AFE_paper.pdf)
 
 
 ## Bayesian Statistics
 
 Bayesian Statistics course taught by Jingchen (Monika) Hu. The lecture is highly recommended!! 
-
 
 * [Bayesian Statistics HW1](content/Bayesian_Statistics/Bayesian_Statistics_HW1.pdf)
 * [Bayesian Statistics HW2](content/Bayesian_Statistics/HW2.pdf)
@@ -25,22 +24,7 @@ Bayesian Statistics course taught by Jingchen (Monika) Hu. The lecture is highly
 * [Bayesian Statistics HW3](content/Bayesian_Statistics/HW3.pdf)
 
 
-## Financial Crisis
-
-* [Financial Crisis HW1](content/Financial_Crisis/Financial_Crisis_HW1.pdf)
-* [Financial Crisis HW2](content/Financial_Crisis/Financial_Crisis_HW2.pdf)
-* [Financial Crisis HW3](content/Financial_Crisis/Financial_Crisis_HW3.pdf)
-* [Financial Crisis HW4](content/Financial_Crisis/Financial_Crisis_HW4.pdf)
-* [Financial Crisis HW5](content/Financial_Crisis/Financial_Crisis_HW5.pdf)
-* [Financial Crisis HW6](content/Financial_Crisis/Financial_Crisis_HW6.pdf)
-* [Financial Crisis HW7](content/Financial_Crisis/Financial_Crisis_HW7.pdf)
-* [Financial Crisis HW8](content/Financial_Crisis/Financial_Crisis_HW8.pdf)
-
 ## Labor Economics
-
-This project is a paper proposal for the course Labor Economics when I was in National Chengchi University.
-
-The software I used was STATA. I will probably use R next time. HA! 
 
 * [Labor Economics Project](content/107205036.pdf)
 
