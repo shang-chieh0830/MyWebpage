@@ -13,21 +13,15 @@ This is where I present some of the R-projects that I'm currently working on.
 * [Applied Financial Econometrics Proposal](content/AFE_paper.pdf)
 
 
-## Bayesian Statistics
-
-Bayesian Statistics course taught by Jingchen (Monika) Hu. The lecture is highly recommended!! 
-
-* [Bayesian Statistics HW1](content/Bayesian_Statistics/Bayesian_Statistics_HW1.pdf)
-* [Bayesian Statistics HW2](content/Bayesian_Statistics/HW2.pdf)
-* [Bayesian Statistics Lab1](content/Bayesian_Statistics/Lab1_Jay.pdf)
-* [Bayesian Statistics Lab2](content/Bayesian_Statistics/Lab2_Jay.pdf)
-* [Bayesian Statistics HW3](content/Bayesian_Statistics/HW3.pdf)
-
 
 ## Labor Economics
 
 * [Labor Economics Project](content/107205036.pdf)
 
+
+## Empirical Fiance and Macroeconomics
+
+* [VAR & SVAR](content/Macro.pdf)
 
 ## Statistical Computing
 
