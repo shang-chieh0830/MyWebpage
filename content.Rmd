@@ -22,6 +22,7 @@ This is where I present some of the R-projects that I'm currently working on.
 ## Empirical Fiance and Macroeconomics
 
 * [VAR & SVAR](content/Macro.pdf)
+* [Applied Financial Economics](content/FE.pdf)
 
 ## Statistical Computing
 
