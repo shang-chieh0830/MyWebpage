@@ -33,8 +33,10 @@ Welcome to my webpage. I'm Shang-Chieh, Wei. You can just call me Jay. I'm curre
 
 - Grader at NTU:
 
-  Managerial Economics (ECON 5147), Spring 2023
+  Market and Strategy (ECON 5126), Spring 2023
 
+  Managerial Economics (ECON 5147), Spring 2023
+  
   Introduction to Law Economics (ECON 5058), Fall 2022
 
 ## Languages
