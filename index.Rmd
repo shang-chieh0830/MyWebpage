@@ -3,7 +3,7 @@ title: "Shang-Chieh's webpage"
 output: html_document
 ---
 
-Welcome to my webpage. I'm Shang-Chieh, Wei. You can just call me Jay. I'm currently a graduate student in the Department of Economics at National Taiwan University. I'm interested in Statistics and Macroeconomics. 
+Welcome to my webpage. I'm Shang-Chieh, Wei. You can just call me Jay. I'm currently a graduate student in the Department of Economics at National Taiwan University. I'm interested in Statistics and Finance. 
 
 ## Education
 
@@ -41,10 +41,10 @@ Welcome to my webpage. I'm Shang-Chieh, Wei. You can just call me Jay. I'm curre
 
 - English (Fluent)
 
-  TOEFL:108/120 (2020/09)
+  TOEFL: 108/120, September 2020
 
 - Chinese (Native)
 
 ## Programming Skills
 
-R, Julia, and $\LaTeX$
+  R, Julia, and $\LaTeX$
