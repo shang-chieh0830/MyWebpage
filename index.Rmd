@@ -7,12 +7,32 @@ Welcome to my webpage. I'm Shang-Chieh, Wei. You can just call me Jay. I'm curre
 
 ## Education
 
-* M.A.(Economics) National Taiwan University, 2022-09 ~ Present
-* B.A.(Major: Economics/ Minor: Public Finance) National Chengchi University, 2018-09~2022-06
+- __M.A.__ in Economics
 
-### Courses Taken
+  September 2022 - Present, __National Taiwan University__, Taiwan 
 
-* Math & Stat: Calculus, Advanced Calculus, Differential Equation (ODE), Linear Algebra, Mathematical Statistics, Econometrics.
+- __B.A.__ in Economics 
+  
+  September 2018 - June 2022, __National Chengchi University__, Taiwan
 
-* Economics: Microeconomics, Macroeconomics, Public Finance, International Finance, Money and Banking,...
+## Scholarships, Awards and Honors
 
+- Honorary membership of __The Phi Tau Phi Scholastic Honor Society__ of the Republic of China, 2022
+
+  A certificate that warrants students who have achieved academic excellence upon graduation to be selected as honorary members of the Society by National Chengchi University.
+  
+- __The Memorial Scholarship Foundation to Lin Hsiung Chen__, 2021
+
+## Teaching Experiences
+
+Teaching Assistant at NTU:
+
+- Principle of Macroeconomics (ECON1023), Spring 2024
+
+- Principle of Microeconomics (ECON1022), Fall 2023
+
+Grader at NTU:
+
+- Managerial Economics (ECON 5147), Spring 2023
+
+- Introduction to Law Economics (ECON 5058), Fall 2022
