@@ -63,9 +63,9 @@ R, Julia, and $\LaTeX$
 
 - Math, Stat, and Programming
 
-  Calculus (A+/A+), Statistics (A+/A+), Linear Algebra (A+/A-), Differential Equations (A+), Advanced Calculus (A+/A), Mathematical Statistics (A+/A+), Multivariate Statistics (A+), Econometrics (A+/A+), Business Analytics with SAS/R (A+), Statistical Theory (A+), Introduction to Numerical Methods in Economics and Econometrics (A+), Applied Financial Econometrics (A+)
+  Calculus (A+/A+), Statistics (A+/A+), Linear Algebra (A+/A-), Applications of Differential Equation (A+), Advanced Calculus (A+/A), Mathematical Statistics (A+/A+), Multivariate Analysis (A+), Econometrics (I)/(II) (A+/A+), Business Analytics with SAS/R (A+), Theory of Statistics (Ⅰ)  (A+), Introduction to Numerical Methods in Economics and Econometrics (A+), Applied Financial Econometrics (A+)
   
 - Econ and Finance
 
-  Economics (A+/A+), Intermediate Microeconomics (A+/A+), Intermediate Macroeconomics (A+/A+), Public Finance (A+/A+), Money and Banking (A+/A+), Financial Management (A+), International Finance (A+), Labor Economics (A+), Industrial Economics (A+) 
+  Economics (A+/A+), Microeconomics (A+/A+), Macroeconomics (A+/A+), Public Finance (A+/A+), Money and Banking (A+/A+), Financial Management (A+), International Finance (A+), Labor Economics (A+), Industrial Economics (A+) 
 
