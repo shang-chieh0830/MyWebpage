@@ -3,7 +3,7 @@ title: "Shang-Chieh's webpage"
 output: html_document
 ---
 
-Welcome to my webpage. I'm Shang-Chieh, Wei. You can just call me Jay. I'm currently a graduate student in the Department of Economics at National Taiwan University. I'm interested in Statistics and Finance. 
+Welcome to my webpage. I'm Wei, Shang-Chieh. You can just call me Jay. I'm currently a graduate student in the Department of Economics at National Taiwan University. I'm interested in Statistics and Finance. 
 
 ## Education
 
@@ -57,4 +57,15 @@ Welcome to my webpage. I'm Shang-Chieh, Wei. You can just call me Jay. I'm curre
 
 ## Programming Skills
 
-  R, Julia, and $\LaTeX$
+R, Julia, and $\LaTeX$
+  
+## Courses Taken
+
+- Math, Stat, and Programming
+
+  Calculus (A+/A+), Statistics (A+/A+), Linear Algebra (A+/A-), Differential Equations (A+), Advanced Calculus (A+/A), Mathematical Statistics (A+/A+), Multivariate Statistics (A+), Econometrics (A+/A+), Business Analytics with SAS/R (A+), Statistical Theory (A+), Introduction to Numerical Methods in Economics and Econometrics (A+), Applied Financial Econometrics (A+)
+  
+- Econ and Finance
+
+  Economics (A+/A+), Intermediate Microeconomics (A+/A+), Intermediate Macroeconomics (A+/A+), Public Finance (A+/A+), Money and Banking (A+/A+), Financial Management (A+), International Finance (A+), Labor Economics (A+), Industrial Economics (A+) 
+
