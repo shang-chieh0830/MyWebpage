@@ -1,5 +1,5 @@
 ---
-title: "Constructing"
+title: "Work in Progress"
 output: 
   html_document:
     df_print: paged
@@ -7,16 +7,6 @@ output:
 
 This is where I present some of the R-projects that I'm currently working on.
 
-
-## Applied Financial Econometrics
-
-* [Applied Financial Econometrics Proposal](content/AFE_paper.pdf)
-
-
-
-## Labor Economics
-
-* [Labor Economics Project](content/107205036.pdf)
 
 
 ## Empirical Fiance and Macroeconomics

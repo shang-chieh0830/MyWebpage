@@ -27,6 +27,18 @@ Welcome to my webpage. I'm Wei, Shang-Chieh. You can just call me Jay. I'm curre
 
   This scholarship is designed to reward outstanding students from public and private universities, as well as independent colleges in Taiwan. There are only 50 scholarships available nationwide. Applicants must have achieved an overall average score of 85 or above in their academic performance for the previous academic year.
   
+- __Outstanding Student Scholarship__, College of Social Sciences, NCCU, 2020 Spring, 2021 Fall
+
+  From the second semester of the first year to the first semester of the fourth year, having completed at least 12 credits in the preceding semester.
+
+  Attaining a ranking within the top ten percent (unconditionally rounded up) of students in each department and class within the undergraduate division, based on the previous semester's academic performance.
+
+  Achieving a passing grade or higher in all courses and having no records of course withdrawal or disciplinary actions in the preceding semester.
+  
+- __Professor Liu, Xing-Hua Memorial Scholarship__, Department of Public Finance, NCCU, Spring 2020
+
+  This scholarship is awarded to the student with the highest academic performance in the field of economics.
+  
 - __Academic Achievement Awards__, NCCU, Fall 2018, Spring 2019, Fall 2019, Spring 2020, Fall 2020, Spring 2021, Fall 2021
 
   Students  who  rank  in  the  top  5%  (rounded  up  unconditionally)  in  their  department and year in a semester shall be given a scholarship and a certificate.
@@ -58,14 +70,21 @@ Welcome to my webpage. I'm Wei, Shang-Chieh. You can just call me Jay. I'm curre
 ## Programming Skills
 
 R, Julia, and $\LaTeX$
+
+
+## Course Projects
+
+- [Applied Financial Econometrics Proposal](content/AFE_paper.pdf)
+
+- [Labor Economics Project](content/107205036.pdf)
   
 ## Courses Taken
 
-- Math, Stat, and Programming
+- Math and Stat
 
-  Calculus (A+/A+), Statistics (A+/A+), Linear Algebra (A+/A-), Applications of Differential Equation (A+), Advanced Calculus (A+/A), Mathematical Statistics (A+/A+), Multivariate Analysis (A+), Econometrics (I)/(II) (A+/A+), Business Analytics with SAS/R (A+), Theory of Statistics (Ⅰ)  (A+), Introduction to Numerical Methods in Economics and Econometrics (A+), Applied Financial Econometrics (A+)
+  Calculus (A+/A+), Statistics (A+/A+), Linear Algebra (A+/A-), Applications of Differential Equation (A+), Advanced Calculus (A+/A), Mathematical Statistics (A+/A+), Multivariate Analysis (A+), Theory of Statistics (Ⅰ)  (A+)
   
 - Econ and Finance
 
-  Economics (A+/A+), Microeconomics (A+/A+), Macroeconomics (A+/A+), Public Finance (A+/A+), Money and Banking (A+/A+), Financial Management (A+), International Finance (A+), Labor Economics (A+), Industrial Economics (A+) 
+  Economics (A+/A+), Microeconomics (A+/A+), Macroeconomics (A+/A+), Public Finance (A+/A+), Money and Banking (A+/A+), Financial Management (A+), International Finance (A+), Labor Economics (A+), Industrial Economics (A+), Econometrics (I)/(II) (A+/A+), Business Analytics with SAS/R (A+), Introduction to Numerical Methods in Economics and Econometrics (A+), Applied Financial Econometrics (A+)
 
