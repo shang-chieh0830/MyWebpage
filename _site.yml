@@ -3,7 +3,7 @@ navbar:
   left:
   - text: Files
     href: content.html
-  - text: Links
+  - text: Resources
     href: links.html
   - text: Contact
     href: contact.html
