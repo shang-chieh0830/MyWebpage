@@ -43,7 +43,7 @@ Welcome to my webpage. I'm Wei, Shang-Chieh. You can just call me Jay. I'm curre
 
   Students  who  rank  in  the  top  5%  (rounded  up  unconditionally)  in  their  department and year in a semester shall be given a scholarship and a certificate.
 
-## Teaching Experiences
+## Teaching Experience
 
 - Teaching Assistant at NTU:
 
@@ -72,7 +72,7 @@ Welcome to my webpage. I'm Wei, Shang-Chieh. You can just call me Jay. I'm curre
 R, Julia, and $\LaTeX$
 
 
-## Course Projects
+## Course Work
 
 - [Applied Financial Econometrics Proposal](content/AFE_paper.pdf)
 
