@@ -413,7 +413,7 @@ r=1,2,...\)</span></td>
 <br><br><span class="math inline">\(x=0,1,2,...\)</span>, <br><br><span class="math inline">\(\text{X is the number of failures}\)</span></td>
 <td><span class="math inline">\(rq/p\)</span></td>
 <td><span class="math inline">\(rq/p^2\)</span></td>
-<td><span class="math inline">\((\frac{pe^t}{1-qe^t})^r\)</span>, ,
+<td><span class="math inline">\((\frac{p}{1-qe^t})^r\)</span>,
 <br><br><span class="math inline">\(t&lt;-\ln p\)</span></td>
 </tr>
 <tr class="odd">
@@ -424,6 +424,13 @@ r=1,2,...\)</span></td>
 <td><span class="math inline">\(\frac{pe^t}{1-qe^t}\)</span><br><br><span class="math inline">\(t&lt;-\ln(1-p)\)</span></td>
 </tr>
 <tr class="even">
+<td><span class="math inline">\(\text{Geometric}\)</span><br><br><span class="math inline">\(X\sim Geo(p),\)</span> <br><br><span class="math inline">\(0&lt;p&lt;1, q=1-p\)</span></td>
+<td><span class="math inline">\(pq^{x},\)</span><br><br><span class="math inline">\(x=0,1,...\)</span></td>
+<td><span class="math inline">\(q/p\)</span></td>
+<td><span class="math inline">\(q/p^2\)</span></td>
+<td><span class="math inline">\(\frac{p}{1-qe^t}\)</span><br><br><span class="math inline">\(t&lt;-\ln(1-p)\)</span></td>
+</tr>
+<tr class="odd">
 <td><span class="math inline">\(\text{Poisson}\)</span><br><br><span class="math inline">\(X\sim Poi(\lambda),\)</span> <br><br><span class="math inline">\(\lambda&gt;0\)</span></td>
 <td><span class="math inline">\(\frac{e^{-\lambda}\lambda^x}{x!},\)</span>
 <br><br><span class="math inline">\(x=0,1,...\)</span></td>
@@ -431,7 +438,7 @@ r=1,2,...\)</span></td>
 <td><span class="math inline">\(\lambda\)</span></td>
 <td><span class="math inline">\(e^{\lambda (e^t-1)}\)</span></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><span class="math inline">\(\text{Discrete
 Uniform}\)</span><br><br><span class="math inline">\(X\sim
 DU(N)\)</span>, <br><br> <span class="math inline">\(N=1,2,...\)</span></td>
@@ -439,6 +446,17 @@ DU(N)\)</span>, <br><br> <span class="math inline">\(N=1,2,...\)</span></td>
 <td><span class="math inline">\(\frac{N+1}{2}\)</span></td>
 <td><span class="math inline">\(\frac{N^2-1}{12}\)</span></td>
 <td><span class="math inline">\(\frac{1}{N}\frac{e^t-e^{(N+1)t}}{1-e^t}\)</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\text{Discrete
+Uniform}\)</span><br><br><span class="math inline">\(X\sim
+U\{a,b\}\)</span>, <br><br> <span class="math inline">\(a,b\text{
+integers with}\)</span><br><br><span class="math inline">\(b\ge
+a\)</span><br><br><span class="math inline">\(N=b-a+1\)</span></td>
+<td><span class="math inline">\(1/N\)</span><br><br><span class="math inline">\(x=a,a+1,...,b-1,b\)</span></td>
+<td><span class="math inline">\(\frac{a+b}{2}\)</span></td>
+<td><span class="math inline">\(\frac{N^2-1}{12}\)</span></td>
+<td><span class="math inline">\(\frac{1}{N}\frac{e^at-e^{(b+1)t}}{1-e^t}\)</span></td>
 </tr>
 <tr class="even">
 <td><span class="math inline">\(\text{Hypergeometric}\)</span><br><br><span class="math inline">\(X\sim Hyp(n,m,k)\)</span><br><br><span class="math inline">\(m=0,1,...,n\)</span><br><br><span class="math inline">\(k=0,1,...,n\)</span><br><br><span class="math inline">\(n=0,1,2,...\)</span></td>
@@ -515,7 +533,8 @@ t})^\alpha\)</span><br><br><span class="math inline">\(t&lt;1/\beta\)</span></td
 <br><br><span class="math inline">\(x&gt;0\)</span></td>
 <td><span class="math inline">\(\theta\)</span></td>
 <td><span class="math inline">\(\theta^2\)</span></td>
-<td><span class="math inline">\(\frac{1}{1-\theta t}\)</span></td>
+<td><span class="math inline">\(\frac{1}{1-\theta
+t}\)</span><br><br><span class="math inline">\(t&lt;1/\theta\)</span></td>
 </tr>
 <tr class="even">
 <td><span class="math inline">\(\text{Exponential}\)</span><br><br><span class="math inline">\(X\sim Exp(\lambda),\)</span> <br><br><span class="math inline">\(\lambda&gt;0\)</span></td>
@@ -563,10 +582,10 @@ Poi(\lambda)\)</span></p>
 <p>If <span class="math inline">\(X\sim Bin(n,p)\)</span> and if <span class="math inline">\(n\)</span> is large and <span class="math inline">\(\lambda=np\)</span> is small, then <span class="math inline">\(X\)</span> approximately has a <span class="math inline">\(Poi(np)\)</span> distribution</p></li>
 <li><p><span class="math inline">\(Geo(p)\leftrightarrow
 NB(n,p)\)</span></p>
-<p>A negative binomial distribution with <span class="math inline">\(r=1\)</span> is a geometric distribution, i.e.,
+<p>A negative binomial distribution with <span class="math inline">\(n=1\)</span> is a geometric distribution, i.e.,
 <span class="math inline">\(Geo(p)=NB(1,p)\)</span>. Also, the sum of
-<span class="math inline">\(r\)</span> independent <span class="math inline">\(Geo(p)\)</span> random variables is a <span class="math inline">\(NB(r,p)\)</span> random variables, i.e., if <span class="math inline">\(X_i\sim i.i.d.Geo(p)\text{, then }\sum_{i=1}^{r}
-X_i\sim NB(r,p)\)</span>.</p></li>
+<span class="math inline">\(n\)</span> independent <span class="math inline">\(Geo(p)\)</span> random variables is a <span class="math inline">\(NB(n,p)\)</span> random variables, i.e., if <span class="math inline">\(X_i\sim i.i.d.Geo(p)\text{, then }\sum_{i=1}^{n}
+X_i\sim NB(n,p)\)</span>.</p></li>
 <li><p><span class="math inline">\(Geo(p)\leftrightarrow
 Exp(\lambda)\)</span></p>
 <p>The exponential distribution may be viewed as a continuous
@@ -600,10 +619,10 @@ a exponential distribution, i.e., <span class="math inline">\(Exp(\theta)=Gamma(
 }\sum_{i=1}^{n} X_i\sim Gamma(n,\theta)\)</span>.</p></li>
 <li><p><span class="math inline">\(Poi(\lambda)\leftrightarrow
 Gamma(n,\lambda)\)</span></p>
-<p>If <span class="math inline">\(X\sim Gamma(n, \beta)\)</span>, where
-<span class="math inline">\(n\)</span> is an integer, then for any x, we
-have <span class="math display">\[P(X\le x)=P(Y\ge n),\]</span> where
-<span class="math inline">\(Y\sim Poi(x/\beta)\)</span></p></li>
+<p>If <span class="math inline">\(X\sim Gamma(n, \lambda)\)</span>,
+where <span class="math inline">\(n\)</span> is an integer, then for any
+x, we have <span class="math display">\[P(X\le x)=P(Y\ge n),\]</span>
+where <span class="math inline">\(Y\sim Poi(x/\lambda)\)</span></p></li>
 <li><p><span class="math inline">\(N(\mu, \sigma^2)\leftrightarrow
 LN(\mu, \sigma^2)\)</span></p>
 <p>If <span class="math inline">\(X\sim N(\mu, \sigma^2)\)</span>, then
