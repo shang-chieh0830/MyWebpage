@@ -11,7 +11,7 @@
 
 <meta name="author" content="Jay Wei" />
 
-<meta name="date" content="2023-09-08" />
+<meta name="date" content="2023-09-10" />
 
 <title>Summary of Probability Distributions</title>
 
@@ -352,7 +352,7 @@ display: none;
 
 <h1 class="title toc-ignore">Summary of Probability Distributions</h1>
 <h4 class="author">Jay Wei</h4>
-<h4 class="date">2023-09-08</h4>
+<h4 class="date">2023-09-10</h4>
 
 </div>
 
@@ -520,14 +520,24 @@ non-positive real part}\)</span><br><br><span class="math inline">\(t\le
 0\)</span></td>
 </tr>
 <tr class="even">
-<td><span class="math inline">\(\text{Gamma}\)</span><br><br><span class="math inline">\(X\sim Gamma(\alpha, \beta),\)</span> <br><br><span class="math inline">\(\alpha&gt;0, \beta&gt;0\)</span></td>
-<td><span class="math inline">\(\frac{x^{\alpha-1}e^{-\frac{x}{\beta}}}{\Gamma(\alpha)\beta^\alpha}\)</span><br><br><span class="math inline">\(x&gt;0\)</span></td>
-<td><span class="math inline">\(\alpha\beta\)</span></td>
-<td><span class="math inline">\(\alpha\beta^2\)</span></td>
-<td><span class="math inline">\((\frac{1}{1-\beta
-t})^\alpha\)</span><br><br><span class="math inline">\(t&lt;1/\beta\)</span></td>
+<td><span class="math inline">\(\text{Gamma}\)</span><br><br><span class="math inline">\(X\sim Gamma(\theta, \kappa),\)</span>
+<br><br><span class="math inline">\(\theta&gt;0,
+\kappa&gt;0\)</span></td>
+<td><span class="math inline">\(\frac{x^{\kappa-1}e^{-\frac{x}{\theta}}}{\Gamma(\kappa)\theta^\kappa}\)</span><br><br><span class="math inline">\(x&gt;0\)</span></td>
+<td><span class="math inline">\(\kappa\theta\)</span></td>
+<td><span class="math inline">\(\kappa\theta^2\)</span></td>
+<td><span class="math inline">\((\frac{1}{1-\theta
+t})^\kappa\)</span><br><br><span class="math inline">\(t&lt;1/\theta\)</span></td>
 </tr>
 <tr class="odd">
+<td><span class="math inline">\(\text{Gamma}\)</span><br><br><span class="math inline">\(X\sim Gamma(\alpha, \beta),\)</span> <br><br><span class="math inline">\(\alpha&gt;0, \beta&gt;0\)</span></td>
+<td><span class="math inline">\(\frac{\beta^\alpha}{\Gamma(\alpha)}x^{\alpha-1}e^{-x\beta}\)</span><br><br><span class="math inline">\(x&gt;0\)</span></td>
+<td><span class="math inline">\(\frac\alpha\beta\)</span></td>
+<td><span class="math inline">\(\frac{\alpha}{\beta^2}\)</span></td>
+<td><span class="math inline">\((\frac{1}{1-t/\beta
+})^\alpha\)</span><br><br><span class="math inline">\(t&lt;\beta\)</span></td>
+</tr>
+<tr class="even">
 <td><span class="math inline">\(\text{Exponential}\)</span><br><br><span class="math inline">\(X\sim Exp(\theta),\)</span> <br><br><span class="math inline">\(\theta&gt;0\)</span></td>
 <td><span class="math inline">\(\frac{1}{\theta}e^{-x/\theta},\)</span>
 <br><br><span class="math inline">\(x&gt;0\)</span></td>
@@ -536,7 +546,7 @@ t})^\alpha\)</span><br><br><span class="math inline">\(t&lt;1/\beta\)</span></td
 <td><span class="math inline">\(\frac{1}{1-\theta
 t}\)</span><br><br><span class="math inline">\(t&lt;1/\theta\)</span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><span class="math inline">\(\text{Exponential}\)</span><br><br><span class="math inline">\(X\sim Exp(\lambda),\)</span> <br><br><span class="math inline">\(\lambda&gt;0\)</span></td>
 <td><span class="math inline">\(\lambda e^{-\lambda x},\)</span>
 <br><br><span class="math inline">\(x&gt;0\)</span></td>
@@ -545,7 +555,7 @@ t}\)</span><br><br><span class="math inline">\(t&lt;1/\theta\)</span></td>
 <td><span class="math inline">\(\frac{\lambda}{\lambda- t}\)</span>,
 <br><br> <span class="math inline">\(t&lt;\lambda\)</span></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><span class="math inline">\(\text{Chi-Square}\)</span><br><br><span class="math inline">\(X\sim \chi^2(\nu),\)</span> <br><br><span class="math inline">\(\nu=1,2,...\)</span></td>
 <td><span class="math inline">\(\frac{x^{\frac{\nu}{2}-1}e^{-x/2}}{2^{\frac{\nu}{2}}\Gamma(\nu/2)},\)</span><br><br><span class="math inline">\(x&gt;0\)</span></td>
 <td><span class="math inline">\(\nu\)</span></td>
@@ -553,7 +563,7 @@ t}\)</span><br><br><span class="math inline">\(t&lt;1/\theta\)</span></td>
 <td><span class="math inline">\((\frac{1}{1-2
 t})^{\nu/2}\)</span><br><br><span class="math inline">\(2t&lt;1\)</span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><span class="math inline">\(\text{Beta}\)</span> <br><br> <span class="math inline">\(X\sim Beta(\alpha,\beta)\)</span><br><br><span class="math inline">\(\alpha&gt;0,\beta&gt;0\)</span></td>
 <td><span class="math inline">\(\frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}x^{\alpha-1}(1-x)^{\beta-1}\)</span><br><br><span class="math inline">\(0&lt;x&lt;1\)</span></td>
 <td><span class="math inline">\(\frac{\alpha}{\alpha+\beta}\)</span></td>
@@ -611,12 +621,12 @@ distributed as <span class="math inline">\(Exp(\lambda)\)</span> and let
 <span class="math inline">\(N\)</span> be the number of arrivals in a
 fixed interval of time of length <span class="math inline">\(t\)</span>.
 Then <span class="math inline">\(N\sim Poi(\lambda t)\)</span></p></li>
-<li><p><span class="math inline">\(Exp(\theta)\leftrightarrow Gamma(n,
-\theta)\)</span></p>
+<li><p><span class="math inline">\(Exp(\lambda)\leftrightarrow Gamma(n,
+\lambda)\)</span></p>
 <p>A Gamma distribution with <span class="math inline">\(n=1\)</span> is
-a exponential distribution, i.e., <span class="math inline">\(Exp(\theta)=Gamma(1,\theta)\)</span>. Also, if
-<span class="math inline">\(X_i\sim i.i.d.Exp(\theta)\text{, then
-}\sum_{i=1}^{n} X_i\sim Gamma(n,\theta)\)</span>.</p></li>
+a exponential distribution, i.e., <span class="math inline">\(Exp(\lambda)=Gamma(1,\lambda)\)</span>. Also, if
+<span class="math inline">\(X_i\sim i.i.d.Exp(\lambda)\text{, then
+}\sum_{i=1}^{n} X_i\sim Gamma(n,\lambda)\)</span>.</p></li>
 <li><p><span class="math inline">\(Poi(\lambda)\leftrightarrow
 Gamma(n,\lambda)\)</span></p>
 <p>If <span class="math inline">\(X\sim Gamma(n, \lambda)\)</span>,
