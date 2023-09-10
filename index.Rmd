@@ -75,11 +75,11 @@ R, Julia, and $\LaTeX$
 
 ## Course Work
 
-- [A Summary of Probability Distributions](content/Summary.html)
+- [A Summary of Probability Distributions](content/course_work/Summary.html)
 
-- [Applied Financial Econometrics Proposal](content/AFE_paper.pdf)
+- [Applied Financial Econometrics Proposal](content/course_work/AFE_paper.pdf)
 
-- [Labor Economics Project](content/107205036.pdf)
+- [Labor Economics Project](content/course_work/107205036.pdf)
   
 ## Courses Taken
 
