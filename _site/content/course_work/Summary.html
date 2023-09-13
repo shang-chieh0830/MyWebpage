@@ -11,7 +11,7 @@
 
 <meta name="author" content="Jay Wei" />
 
-<meta name="date" content="2023-09-10" />
+<meta name="date" content="2023-09-13" />
 
 <title>Summary of Probability Distributions</title>
 
@@ -352,7 +352,7 @@ display: none;
 
 <h1 class="title toc-ignore">Summary of Probability Distributions</h1>
 <h4 class="author">Jay Wei</h4>
-<h4 class="date">2023-09-10</h4>
+<h4 class="date">2023-09-13</h4>
 
 </div>
 
@@ -570,6 +570,26 @@ t})^{\nu/2}\)</span><br><br><span class="math inline">\(2t&lt;1\)</span></td>
 <td><span class="math inline">\(\frac{\alpha\beta}{(\alpha+\beta+1)(\alpha+\beta)^2}\)</span></td>
 <td><span class="math inline">\(1+\sum_{k=1}^{\infty}(\prod_{r=0}^{k-1}\frac{\alpha+r}{\alpha+\beta+r})\frac{t^k}{k!}\)</span></td>
 </tr>
+<tr class="even">
+<td><span class="math inline">\(\text{Pareto}\)</span> <br><br> <span class="math inline">\(X\sim PAR(x_m, \alpha)\)</span><br><br><span class="math inline">\(\alpha&gt;0,x_m&gt;0\)</span></td>
+<td><span class="math inline">\(\frac{\alpha
+x_m^\alpha}{x^{\alpha+1}}\)</span><br><br><span class="math inline">\(x\ge x_m\)</span></td>
+<td><span class="math inline">\(\begin{cases}\infty &amp; \text{ for
+}\alpha\le1 \\ \frac{\alpha x_m}{\alpha-1}&amp;\text{ for
+}\alpha&gt;1\end{cases}\)</span></td>
+<td><span class="math inline">\(\begin{cases}\infty &amp; \text{ for
+}\alpha\le2 \\ \frac{\alpha x^2_m}{(\alpha-1)^2(\alpha-2)}&amp;\text{
+for }\alpha&gt;2\end{cases}\)</span></td>
+<td><span class="math inline">\(\text{ DNE }\)</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\text{Pareto}\)</span> <br><br> <span class="math inline">\(X\sim PAR(\theta, \kappa)\)</span><br><br><span class="math inline">\(\theta&gt;0,\kappa&gt;0\)</span></td>
+<td><span class="math inline">\(\frac{\kappa }{\theta
+(1+x/\theta)^{\kappa+1}}\)</span><br><br><span class="math inline">\(x&gt;0\)</span></td>
+<td><span class="math inline">\(\frac{\theta}{\kappa-1}\)</span><br><br><span class="math inline">\(\kappa&gt;1\)</span></td>
+<td><span class="math inline">\(\frac{\theta^2\kappa}{(\kappa-2)(\kappa-1)^2}\)</span><br><br><span class="math inline">\(\kappa&gt;2\)</span></td>
+<td><span class="math inline">\(\text{ DNE }\)</span></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -640,6 +660,10 @@ LN(\mu, \sigma^2)\)</span></p>
 Conversely, if <span class="math inline">\(X\sim
 LN(\mu,\sigma^2)\)</span>, then <span class="math inline">\(\ln X\sim
 N(\mu,\sigma^2)\)</span></p></li>
+<li><p>Pareto distribution can be used to model household wealth or city
+size as Pareto distribution has heavy tail. Exponential and Pareto can
+be very similar graphically, but Exponential distribution decreases
+exponentially, while Pareto distribution has heavy tail.</p></li>
 </ol>
 </div>
 

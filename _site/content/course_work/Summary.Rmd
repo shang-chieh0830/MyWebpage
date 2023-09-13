@@ -34,6 +34,8 @@ date: "`r Sys.Date()`"
 | $\text{Exponential}$<br><br>$X\sim Exp(\lambda),$ <br><br>$\lambda>0$  | $\lambda e^{-\lambda x},$ <br><br>$x>0$                              | $\frac{1}{\lambda}$             | $\frac{1}{\lambda^2}$          | $\frac{\lambda}{\lambda- t}$, <br><br> $t<\lambda$ |
 | $\text{Chi-Square}$<br><br>$X\sim \chi^2(\nu),$ <br><br>$\nu=1,2,...$ | $\frac{x^{\frac{\nu}{2}-1}e^{-x/2}}{2^{\frac{\nu}{2}}\Gamma(\nu/2)},$<br><br>$x>0$          | $\nu$                | $2\nu$               | $(\frac{1}{1-2 t})^{\nu/2}$<br><br>$2t<1$ |
 |$\text{Beta}$ <br><br> $X\sim Beta(\alpha,\beta)$<br><br>$\alpha>0,\beta>0$|$\frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}x^{\alpha-1}(1-x)^{\beta-1}$<br><br>$0<x<1$|$\frac{\alpha}{\alpha+\beta}$|$\frac{\alpha\beta}{(\alpha+\beta+1)(\alpha+\beta)^2}$|$1+\sum_{k=1}^{\infty}(\prod_{r=0}^{k-1}\frac{\alpha+r}{\alpha+\beta+r})\frac{t^k}{k!}$|
+|$\text{Pareto}$ <br><br> $X\sim PAR(x_m, \alpha)$<br><br>$\alpha>0,x_m>0$|$\frac{\alpha x_m^\alpha}{x^{\alpha+1}}$<br><br>$x\ge x_m$|$\begin{cases}\infty & \text{ for }\alpha\le1 \\ \frac{\alpha x_m}{\alpha-1}&\text{ for }\alpha>1\end{cases}$|$\begin{cases}\infty & \text{ for }\alpha\le2 \\ \frac{\alpha x^2_m}{(\alpha-1)^2(\alpha-2)}&\text{ for }\alpha>2\end{cases}$|$\text{ DNE }$|
+|$\text{Pareto}$ <br><br> $X\sim PAR(\theta, \kappa)$<br><br>$\theta>0,\kappa>0$|$\frac{\kappa }{\theta (1+x/\theta)^{\kappa+1}}$<br><br>$x>0$|$\frac{\theta}{\kappa-1}$<br><br>$\kappa>1$|$\frac{\theta^2\kappa}{(\kappa-2)(\kappa-1)^2}$<br><br>$\kappa>2$|$\text{ DNE }$|
 
 
 
@@ -85,3 +87,5 @@ date: "`r Sys.Date()`"
 
     If $X\sim N(\mu, \sigma^2)$, then $e^X\sim LN(\mu,\sigma^2)$.
     Conversely, if $X\sim LN(\mu,\sigma^2)$, then $\ln X\sim N(\mu,\sigma^2)$
+    
+10. Pareto distribution can be used to model household wealth or city size as Pareto distribution has heavy tail. Exponential and Pareto can be very similar graphically, but Exponential distribution decreases exponentially, while Pareto distribution has heavy tail.
