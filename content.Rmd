@@ -14,11 +14,12 @@ This is where I present some of the R-projects that I'm currently working on.
 * [VAR & SVAR](content/Macro.pdf)
 * [Applied Financial Economics](content/FE.pdf)
 
-### Multivariate Analysis
+### Applied Multivariate Statistical Analysis
 
 * [Practice Problems 1](content/STAT873/Practice1.pdf)
 * [Practice Problems 2](content/STAT873/Practice2.pdf)
 * [Practice Problems 3](content/STAT873/Practice3.pdf)
+* [Practice Problems 4](content/STAT873/Practice4.pdf)
 
 ### Statistical Computing
 
