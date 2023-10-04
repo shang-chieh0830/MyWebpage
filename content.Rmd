@@ -20,6 +20,7 @@ This is where I present some of the R-projects that I'm currently working on.
 * [Practice Problems 2](content/STAT873/Practice2.pdf)
 * [Practice Problems 3](content/STAT873/Practice3.pdf)
 * [Practice Problems 4](content/STAT873/Practice4.pdf)
+* [Practice Problems 5](content/STAT873/Practice5.pdf)
 
 ### Statistical Computing
 
