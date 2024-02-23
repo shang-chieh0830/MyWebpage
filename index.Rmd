@@ -4,13 +4,16 @@ output: html_document
 date: "Last updated: `r Sys.Date()`"
 ---
 
-Welcome to my webpage. I'm Wei, Shang-Chieh. You can just call me Jay. I'm currently a graduate student in the Department of Economics at National Taiwan University. I'm interested in Statistics and Finance. 
+Welcome to my webpage. I'm Shang-Chieh Wei. I'm currently a graduate student in the Department of Economics at National Taiwan University.
 
 ## Education
 
 - __M.A.__ in Economics
 
   September 2022 - Present, __National Taiwan University__, Taiwan 
+  
+  Thesis Topic: _Analyzing the Impact of Policies and Macroeconomic Factors on Electric Vehicle Sales_
+  
 
 - __B.A.__ in Economics (with a Minor in Public Finance)
   
@@ -40,15 +43,13 @@ Welcome to my webpage. I'm Wei, Shang-Chieh. You can just call me Jay. I'm curre
 
   This scholarship is awarded to the student with the highest academic performance in the field of economics.
   
-- __Academic Achievement Awards__, NCCU, Fall 2018, Spring 2019, Fall 2019, Spring 2020, Fall 2020, Spring 2021, Fall 2021
+- __Academic Excellence Awards__, NCCU, Fall 2018, Spring 2019, Fall 2019, Spring 2020, Fall 2020, Spring 2021, Fall 2021
 
   Students  who  rank  in  the  top  5%  (rounded  up  unconditionally)  in  their  department and year in a semester shall be given a scholarship and a certificate.
 
 ## Teaching Experience
 
 - Teaching Assistant at NTU:
-
-  Principle of Macroeconomics (ECON1023), Spring 2024
 
   [Principle of Microeconomics (ECON1022)](https://nol.ntu.edu.tw/nol/coursesearch/print_table.php?course_id=303%2010130&class=03&dpt_code=7050&ser_no=39785&semester=112-1&lang=EN), Fall 2023
 
@@ -70,24 +71,25 @@ Welcome to my webpage. I'm Wei, Shang-Chieh. You can just call me Jay. I'm curre
 
 ## Programming Skills
 
-R, Julia, and $\LaTeX$
+R, Stata, and $\LaTeX$
 
 
-## Course Work
+## Coursework
 
 - [A Summary of Probability Distributions](content/course_work/Summary.html)
 
 - [Applied Financial Econometrics Proposal](content/course_work/AFE_paper.pdf)
 
 - [Labor Economics Project](content/course_work/107205036.pdf)
-  
-## Courses Taken
+
+## Courses
 
 - Math and Stat
 
-  Calculus (A+/A+), Statistics (A+/A+), Linear Algebra (A+/A-), Applications of Differential Equation (A+), Advanced Calculus (A+/A), Mathematical Statistics (A+/A+), Multivariate Analysis (A+), Theory of Statistics (Ⅰ)  (A+)
+  Calculus (A+/A+), Statistics (A+/A+), Linear Algebra (A+/A-), Applications of Differential Equation (A+), Advanced Calculus (A+/A), Mathematical Statistics (A+/A+), Multivariate Analysis (A+), Theory of Statistics (Ⅰ) (A+), Data Science and Social Inquiry (A+)
   
 - Econ and Finance
 
   Economics (A+/A+), Microeconomics (A+/A+), Macroeconomics (A+/A+), Public Finance (A+/A+), Money and Banking (A+/A+), Financial Management (A+), International Finance (A+), Labor Economics (A+), Industrial Economics (A+), Econometrics (I)/(II) (A+/A+), Business Analytics with SAS/R (A+), Introduction to Numerical Methods in Economics and Econometrics (A+), Applied Financial Econometrics (A+)
+
 
