@@ -4,7 +4,7 @@ output: html_document
 date: "Last updated: `r Sys.Date()`"
 ---
 
-Welcome to my webpage. I'm Shang-Chieh Wei. I'm currently a graduate student in the Department of Economics at National Taiwan University.
+Welcome to my webpage. I'm Shang-Chieh Wei. I'm currently a graduate student in the Department of Economics at National Taiwan University. You can download my CV [here](content/Resume.pdf).
 
 ## Education
 
