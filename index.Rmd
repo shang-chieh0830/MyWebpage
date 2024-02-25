@@ -76,11 +76,13 @@ R, Stata, and $\LaTeX$
 
 ## Coursework
 
+- [Vanilla web scraping on Booking.com](https://youtu.be/tecRUg1QDRk)
+
 - [A Summary of Probability Distributions](content/course_work/Summary.html)
 
-- [Applied Financial Econometrics Proposal](content/course_work/AFE_paper.pdf)
+- Stock Return Differentials as Predictors of Daily Exchange Rate Movements
 
-- [Labor Economics Project](content/course_work/107205036.pdf)
+- The Effect of Food Delivery Platform on the Wage Difference after Job Status Changing
 
 ## Courses
 
