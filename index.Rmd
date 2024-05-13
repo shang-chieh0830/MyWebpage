@@ -12,7 +12,7 @@ Welcome to my webpage. I'm Shang-Chieh Wei. I'm currently a graduate student in 
 
   September 2022 - Present, __National Taiwan University__, Taiwan 
   
-  Thesis Topic: _Analyzing the Impact of Policies and Macroeconomic Factors on Electric Vehicle Sales_
+  Thesis Topic: [_Analyzing the Impact of Policies and Macroeconomic Factors on Electric Vehicle Sales_](content/EV_Slides.pdf)
   
 
 - __B.A.__ in Economics (with a Minor in Public Finance)
